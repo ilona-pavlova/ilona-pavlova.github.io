@@ -69,12 +69,7 @@ header {
     position: absolute;
     top: var(--spacing-sm);
     right: var(--spacing-lg);
-    width: 250px;
-    height: 250px;
-    min-width: 250px;
-    min-height: 250px;
-    max-width: 250px;
-    max-height: 250px;
+    width: clamp(120px, 20vw, 250px);
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: var(--radius-md);
