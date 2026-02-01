@@ -9,9 +9,9 @@
     --primary-light: hsl(var(--primary-hue), 70%, 70%);
     --primary-dark: hsl(var(--primary-hue), 70%, 50%);
 
-    --bg-color: #bfd9d7;
+    --bg-color: #1a1a1a;
     --bg-secondary: hsl(240, 12%, 15%);
-    --text-color: #353745;
+    --text-color: #ffffff;
     --text-secondary: hsl(0, 0%, 70%);
 
     /* Spacing */
@@ -44,7 +44,7 @@
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background: var(--bg-color);
     color: var(--text-color);
     line-height: 1.6;
@@ -60,7 +60,9 @@ body {
     flex-direction: column;
     padding: var(--spacing-md);
     gap: var(--spacing-md);
-    min-height: 60vh;
+    /* min-height: 60vh; Removed to match photo height */
+    background-color: #081f0b;
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
 }
 
 /* Desktop Layout */
@@ -69,14 +71,18 @@ body {
         flex-direction: row;
         align-items: center;
         padding: var(--spacing-xl);
+        position: relative;
+        /* For overlap handling */
     }
 
     .hero-left,
     .hero-right {
-        width: 50%;
+        /* Remove fixed width to allow overlap */
         display: flex;
         flex-direction: column;
         justify-content: center;
+        z-index: 10;
+        width: 45%;
     }
 
     .hero-left {
@@ -84,8 +90,12 @@ body {
     }
 
     .hero-right {
-        padding-left: var(--spacing-lg);
-        align-items: flex-start;
+        padding-left: 0;
+        /* Remove padding to bring closer */
+        margin-left: -10%;
+        /* Negative margin for overlap */
+        align-items: center;
+        text-align: center;
     }
 }
 
@@ -98,9 +108,11 @@ body {
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: var(--radius-md);
-    border: 4px solid rgba(255, 255, 255, 0.2);
+    border: none;
     box-shadow: var(--shadow-lg);
     transition: all var(--transition-normal);
+
+
 }
 
 #header-photo:hover {
@@ -123,25 +135,48 @@ h1 {
     margin-bottom: var(--spacing-md);
 }
 
+/* Define container for container queries */
 .hero-text-lines {
     margin-top: var(--spacing-md);
     display: flex;
     flex-direction: column;
     gap: var(--spacing-xs);
+    container-type: inline-size;
+    width: 100%;
 }
 
 .hero-line {
-    font-size: 4.5rem;
+    /* Use cqi (container query inline size) to scale with the container width */
+    font-size: 7cqi;
     font-weight: 600;
     line-height: 1.1;
     color: var(--text-color);
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    white-space: nowrap;
+    /* Force single line */
+}
+
+.hero-line.line-2 {
+    font-size: 5cqi;
+    /* Smaller font for longer text */
+    white-space: nowrap;
+}
+
+.hero-subline {
+    font-size: 3.1cqi;
+    /* Increased by 25% */
+    font-weight: 400;
+    color: var(--text-color);
+    margin-top: var(--spacing-sm);
+    white-space: nowrap;
 }
 
 .hero-line.accent {
-    color: var(--primary-dark);
+    color: #ffffff;
     font-weight: 800;
+    font-size: 8cqi;
+    /* Slightly larger for accent */
 }
 
 nav ul {
@@ -221,8 +256,25 @@ footer {
     }
 
     .hero-container {
+        flex-direction: column;
+        /* Force column */
         align-items: center;
         text-align: center;
+    }
+
+    .hero-left,
+    .hero-right {
+        width: 100%;
+        /* Full width */
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero-right {
+        margin-left: 0;
+        /* Reset overlap */
+        margin-top: var(--spacing-md);
+        /* Add vertical spacing */
     }
 
     .hero-text-lines {
