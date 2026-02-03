@@ -62,7 +62,7 @@ body {
     gap: var(--spacing-md);
     /* min-height: 60vh; Removed to match photo height */
     background-color: #013220;
-    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    border-radius: 0;
 }
 
 /* Desktop Layout */
