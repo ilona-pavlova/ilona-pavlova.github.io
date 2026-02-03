@@ -9,10 +9,10 @@
     --primary-light: hsl(var(--primary-hue), 70%, 70%);
     --primary-dark: hsl(var(--primary-hue), 70%, 50%);
 
-    --bg-color: #1a1a1a;
-    --bg-secondary: hsl(240, 12%, 15%);
-    --text-color: #ffffff;
-    --text-secondary: hsl(0, 0%, 70%);
+    --bg-color: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --text-color: #1a1a1a;
+    --text-secondary: #4a4a4a;
 
     /* Spacing */
     --spacing-xs: 0.5rem;
@@ -61,7 +61,7 @@ body {
     padding: var(--spacing-md);
     gap: var(--spacing-md);
     /* min-height: 60vh; Removed to match photo height */
-    background-color: #081f0b;
+    background-color: #013220;
     border-radius: 0 0 var(--radius-lg) var(--radius-lg);
 }
 
@@ -150,7 +150,8 @@ h1 {
     font-size: 7cqi;
     font-weight: 600;
     line-height: 1.1;
-    color: var(--text-color);
+    color: #ffffff;
+    /* Stay white on green background */
     text-transform: uppercase;
     letter-spacing: 0.05em;
     white-space: nowrap;
@@ -167,7 +168,8 @@ h1 {
     font-size: 3.1cqi;
     /* Increased by 25% */
     font-weight: 400;
-    color: var(--text-color);
+    color: #ffffff;
+    /* Stay white on green background */
     margin-top: var(--spacing-sm);
     white-space: nowrap;
 }
