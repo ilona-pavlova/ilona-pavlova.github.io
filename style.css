@@ -149,13 +149,13 @@ h1 {
 }
 
 .hero-line.line-2 {
-    font-size: 4.5cqi;
+    font-size: 5.5cqi;
     /* Smaller font for longer text */
     white-space: nowrap;
 }
 
 .hero-subline {
-    font-size: 2.8cqi;
+    font-size: 4cqi;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.9);
     margin-top: var(--spacing-sm);
@@ -263,14 +263,14 @@ section p {
 }
 
 .performance-content-wrapper {
-    max-width: 1200px;
+    max-width: 1700px;
     margin: 0 auto;
     padding: 0 var(--spacing-md);
     width: 100%;
 }
 
 .section-title {
-    font-size: 2.2rem;
+    font-size: 4rem;
     font-weight: 700;
     color: #013220;
     /* Dark green for contrast */
@@ -280,9 +280,9 @@ section p {
 }
 
 .performance-intro {
-    max-width: 800px;
+    max-width: 1700px;
     margin: 0 auto var(--spacing-xl) auto;
-    font-size: 1.2rem;
+    font-size: 2.1rem;
     color: #013220;
     /* Dark green for legibility */
     line-height: 1.7;
@@ -327,7 +327,7 @@ section p {
 }
 
 .card h3 {
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-bottom: var(--spacing-sm);
     color: #1a1a1a;
@@ -336,7 +336,7 @@ section p {
 }
 
 .card p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #4a4a4a;
     /* Slightly darker for legibility */
     line-height: 1.5;
