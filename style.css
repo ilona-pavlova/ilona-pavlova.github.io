@@ -62,7 +62,7 @@ body {
     gap: var(--spacing-md);
     background-color: #013220;
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: var(--spacing-xl);
 }
 
 /* Desktop Layout */
