@@ -342,6 +342,98 @@ section p {
     line-height: 1.5;
 }
 
+/* Testimonials Section Styles */
+.testimonials-section {
+    background-color: #013220;
+    text-align: center;
+    padding: var(--spacing-xl) 0;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+}
+
+.testimonials-content-wrapper {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+    width: 100%;
+}
+
+.testimonials-section .section-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #D4AF37;
+    margin-bottom: var(--spacing-xl);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-lg);
+}
+
+.testimonial-card {
+    background: #D4AF37;
+    border: none;
+    border-radius: 0;
+    padding: var(--spacing-lg);
+    transition: all var(--transition-normal);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.quote-mark {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #013220;
+    line-height: 1;
+    margin-bottom: var(--spacing-sm);
+    opacity: 0.3;
+}
+
+.quote-mark.closing {
+    align-self: flex-end;
+    margin-top: var(--spacing-sm);
+    margin-bottom: 0;
+}
+
+.testimonial-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #013220;
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.4;
+}
+
+.testimonial-detail {
+    font-size: 1.1rem;
+    color: #013220;
+    line-height: 1.6;
+    margin-bottom: var(--spacing-md);
+    opacity: 0.9;
+}
+
+.testimonial-author {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #013220;
+    font-style: italic;
+    margin-top: auto;
+    opacity: 0.8;
+}
+
 /* Footer */
 footer {
     background: #013220;
