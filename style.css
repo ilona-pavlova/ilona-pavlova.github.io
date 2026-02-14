@@ -376,7 +376,7 @@ section p {
 }
 
 .testimonial-card {
-    background: #D4AF37;
+    background: #013220;
     border: none;
     border-radius: 0;
     padding: var(--spacing-lg);
@@ -412,14 +412,14 @@ section p {
 .testimonial-text {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #013220;
+    color: #ffffff;
     margin-bottom: var(--spacing-sm);
     line-height: 1.4;
 }
 
 .testimonial-detail {
     font-size: 1.1rem;
-    color: #013220;
+    color: #ffffff;
     line-height: 1.6;
     margin-bottom: var(--spacing-md);
     opacity: 0.9;
@@ -428,7 +428,7 @@ section p {
 .testimonial-author {
     font-size: 1.3rem;
     font-weight: 600;
-    color: #013220;
+    color: #ffffff;
     font-style: italic;
     margin-top: auto;
     opacity: 0.8;
