@@ -408,8 +408,8 @@ section p {
 
 /* Section Divider */
 .section-divider {
-    background-color: #ffffff;
-    height: 60px;
+    background-color: #c5a059;
+    height: 3px;
     width: 100%;
 }
 
