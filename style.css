@@ -60,7 +60,7 @@ body {
     flex-direction: column;
     padding: var(--spacing-xl) var(--spacing-md);
     gap: var(--spacing-md);
-    background-color: #013220;
+    background-color: #014421;
     width: 100%;
     margin-bottom: var(--spacing-xl);
 }
@@ -255,7 +255,7 @@ section p {
 
 /* Performance Section Styles */
 .performance-section {
-    background-color: #d4af37;
+    background-color: #014421;
     text-align: center;
     padding: var(--spacing-xl) 0;
     margin: 0;
@@ -268,12 +268,13 @@ section p {
     margin: 0 auto;
     padding: 0 var(--spacing-md);
     width: 100%;
+    container-type: inline-size;
 }
 
 .section-title {
-    font-size: 2.8rem;
+    font-size: clamp(1.2rem, 4cqi, 2.8rem);
     font-weight: 700;
-    color: #013220;
+    color: #ffffff;
     /* Dark green for contrast */
     margin-bottom: var(--spacing-md);
     text-transform: uppercase;
@@ -284,14 +285,12 @@ section p {
     max-width: 1700px;
     margin: 0 auto var(--spacing-xl) auto;
     font-size: 1.5rem;
-    color: #013220;
-    /* Dark green for legibility */
+    color: #ffffff;
     line-height: 1.6;
 }
 
 .performance-intro strong {
-    color: #ffffff;
-    /* White for emphasis on gold */
+    color: #d4af37;
 }
 
 .cards-container {
@@ -306,6 +305,7 @@ section p {
     perspective: 1200px;
     min-height: 340px;
     height: 100%;
+    container-type: inline-size;
 }
 
 .card-inner {
@@ -358,13 +358,14 @@ section p {
 }
 
 .card h3 {
-    font-size: 2rem;
+    font-size: clamp(1rem, 5cqi, 2rem);
     font-weight: 700;
     margin-bottom: var(--spacing-sm);
     color: #1a1a1a;
     text-transform: uppercase;
     letter-spacing: 0.02em;
-    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card p {
@@ -414,7 +415,7 @@ section p {
 
 /* Expertise Section Styles */
 .expertise-section {
-    background-color: #d4af37;
+    background-color: #014421;
     text-align: center;
     padding: var(--spacing-xl) 0;
     margin: 0;
@@ -427,17 +428,18 @@ section p {
     margin: 0 auto;
     padding: 0 var(--spacing-md);
     width: 100%;
+    container-type: inline-size;
 }
 
 .expertise-section .section-title {
-    color: #013220;
+    color: #ffffff;
 }
 
 .expertise-intro {
     max-width: 1700px;
     margin: 0 auto var(--spacing-sm) auto;
     font-size: 1.5rem;
-    color: #013220;
+    color: #ffffff;
     line-height: 1.6;
     text-align: left;
 }
@@ -446,7 +448,7 @@ section p {
     text-align: center;
     font-size: 1.6rem;
     font-weight: 700;
-    color: #013220;
+    color: #ffffff;
     padding-top: var(--spacing-xl);
     letter-spacing: 0.02em;
 }
