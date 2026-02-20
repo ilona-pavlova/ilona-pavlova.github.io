@@ -155,7 +155,7 @@ h1 {
 }
 
 .hero-subline {
-    font-size: 4cqi;
+    font-size: 2.8cqi;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.9);
     margin-top: var(--spacing-sm);
@@ -168,7 +168,7 @@ h1 {
     align-self: flex-start;
     margin-top: var(--spacing-lg);
     padding: 1rem 2.5rem;
-    background-color: #D4AF37;
+    background-color: #d4af37;
     color: #013220;
     border: none;
     border-radius: 50px;
@@ -255,7 +255,7 @@ section p {
 
 /* Performance Section Styles */
 .performance-section {
-    background-color: #D4AF37;
+    background-color: #d4af37;
     text-align: center;
     padding: var(--spacing-xl) 0;
     margin: 0;
@@ -271,7 +271,7 @@ section p {
 }
 
 .section-title {
-    font-size: 4rem;
+    font-size: 2.8rem;
     font-weight: 700;
     color: #013220;
     /* Dark green for contrast */
@@ -283,10 +283,10 @@ section p {
 .performance-intro {
     max-width: 1700px;
     margin: 0 auto var(--spacing-xl) auto;
-    font-size: 2.1rem;
+    font-size: 1.5rem;
     color: #013220;
     /* Dark green for legibility */
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
 .performance-intro strong {
@@ -353,8 +353,8 @@ section p {
 
 .card.card-back p {
     color: #ffffff;
-    font-size: 1.7rem;
-    line-height: 1.7;
+    font-size: 1.5rem;
+    line-height: 1.5;
 }
 
 .card h3 {
@@ -389,12 +389,12 @@ section p {
 }
 
 .card-back .card-info-btn {
-    background-color: #D4AF37;
+    background-color: #d4af37;
     color: #013220;
 }
 
 .card-info-btn:hover {
-    background-color: #D4AF37;
+    background-color: #d4af37;
     color: #013220;
     transform: translateY(-2px);
 }
@@ -414,7 +414,7 @@ section p {
 
 /* Expertise Section Styles */
 .expertise-section {
-    background-color: #D4AF37;
+    background-color: #d4af37;
     text-align: center;
     padding: var(--spacing-xl) 0;
     margin: 0;
@@ -436,15 +436,15 @@ section p {
 .expertise-intro {
     max-width: 1700px;
     margin: 0 auto var(--spacing-sm) auto;
-    font-size: 2.1rem;
+    font-size: 1.5rem;
     color: #013220;
-    line-height: 1.7;
+    line-height: 1.6;
     text-align: left;
 }
 
 .expertise-tagline {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 700;
     color: #013220;
     padding-top: var(--spacing-xl);
