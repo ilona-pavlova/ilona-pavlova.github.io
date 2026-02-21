@@ -82,7 +82,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    background-color: #1a3026;
+    background: linear-gradient(to right, #0d1a14 0%, #1a3026 100%);
     width: 100%;
     min-height: clamp(500px, 70vh, 1000px);
     overflow: hidden;
