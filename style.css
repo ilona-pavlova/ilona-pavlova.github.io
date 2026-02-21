@@ -379,7 +379,7 @@ section p {
     font-weight: 400;
     color: #ffffff;
     /* Dark green for contrast */
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     letter-spacing: 0.1em;
     display: flex;
     align-items: center;
@@ -390,7 +390,7 @@ section p {
 .section-title::before,
 .section-title::after {
     content: "";
-    width: 80px;
+    width: 40px;
     height: 1px;
     background-color: #ac8953;
 }
@@ -409,10 +409,14 @@ section p {
     margin-top: 2rem;
 }
 
+.process-title {
+    margin-top: 6rem;
+}
+
 .process-tagline::before,
 .process-tagline::after {
     content: "";
-    width: 80px;
+    width: 40px;
     height: 1px;
     background-color: #ac8953;
 }
@@ -441,7 +445,7 @@ section p {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
     gap: var(--spacing-lg);
-    margin-top: var(--spacing-lg);
+    margin-top: 1.5rem;
 }
 
 /* Card Flip */
