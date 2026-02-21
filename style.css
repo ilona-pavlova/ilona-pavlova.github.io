@@ -97,7 +97,7 @@ body {
 
 .authority-section {
     background-color: #1a3026;
-    padding: var(--spacing-lg) var(--spacing-md);
+    padding: 1.2rem 0.8rem;
     text-align: center;
     border-radius: 0;
     margin-bottom: 0;
@@ -111,21 +111,21 @@ body {
 }
 
 .authority-line-1 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Baskerville', serif;
     color: #ac8953;
-    font-size: 35px;
-    font-weight: 700;
-    margin-bottom: var(--spacing-sm);
+    font-size: clamp(1.2rem, 3.5vw, 30px);
+    font-weight: 400;
+    margin-bottom: 0.4rem;
     text-transform: none;
     /* Keep casing as provided */
     letter-spacing: normal;
 }
 
 .authority-line-2 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Baskerville', serif;
     color: #ffffff;
-    font-size: 35px;
-    font-weight: 400;
+    font-size: clamp(1rem, 3vw, 30px);
+    font-weight: 100;
     /* Regular weight for contrast */
 }
 
@@ -238,6 +238,7 @@ body {
 @media (max-width: 768px) {
     .hero-container {
         min-height: auto;
+        padding-bottom: 20px;
     }
 
     .hero-main {
@@ -249,16 +250,20 @@ body {
     .hero-text {
         flex: none;
         padding: var(--spacing-lg) var(--spacing-md);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .hero-photo {
+    #header-photo {
         flex: none;
-        height: 50vw;
-        min-height: 260px;
+        height: auto;
+        width: 80%;
+        max-width: 400px;
     }
 
-    .hero-photo::before {
-        background: linear-gradient(to bottom, #014421 0%, transparent 30%);
+    .cta-button {
+        align-self: center;
     }
 
     .hero-headline {
