@@ -59,18 +59,18 @@ body {
 .top-branding {
     background-color: #014421;
     color: #c5a059;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Baskerville', serif;
     padding: var(--spacing-sm) var(--spacing-xl);
     text-align: center;
     letter-spacing: 0.1em;
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 0px;
 }
 
 .brand-name {
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .brand-tagline {
@@ -130,9 +130,9 @@ body {
 }
 
 .hero-headline {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Baskerville', serif;
     font-size: clamp(2.5rem, 5vw, 5rem);
-    font-weight: 700;
+    font-weight: 400;
     color: #ffffff;
     line-height: 1.1;
     margin-bottom: 0;
