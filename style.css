@@ -357,9 +357,9 @@ section p {
 
 /* Performance Section Styles */
 .performance-section {
-    background-color: #1a3026;
+    background: linear-gradient(to right, #0d1a14 0%, #1a3026 100%);
     text-align: center;
-    padding: var(--spacing-xl) 0;
+    padding: 1.5rem 0;
     margin: 0;
     width: 100%;
     border-radius: 0;
@@ -379,7 +379,7 @@ section p {
     font-weight: 400;
     color: #ffffff;
     /* Dark green for contrast */
-    margin-bottom: var(--spacing-md);
+    margin-bottom: 1rem;
     letter-spacing: 0.1em;
     display: flex;
     align-items: center;
