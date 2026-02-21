@@ -140,7 +140,7 @@ h1 {
 
 .hero-line {
     font-family: 'Libre Baskerville', Georgia, serif;
-    font-size: clamp(36px, 6cqi, 80px);
+    font-size: clamp(20px, 6cqi, 80px);
     font-weight: 700;
     line-height: 1.1;
     color: #ffffff;
@@ -150,8 +150,18 @@ h1 {
 }
 
 .hero-line.line-2 {
-    font-size: clamp(33px, 5.5cqi, 72px);
+    font-size: clamp(18px, 5.5cqi, 72px);
     white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+
+    .hero-line,
+    .hero-line.line-2 {
+        white-space: normal;
+        word-break: break-word;
+        font-size: clamp(20px, 8vw, 40px);
+    }
 }
 
 .hero-subline {
@@ -296,7 +306,7 @@ section p {
 
 .cards-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
     gap: var(--spacing-lg);
     margin-top: var(--spacing-lg);
 }
