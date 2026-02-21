@@ -1,0 +1,9 @@
+title: Ilona Pavlova
+description: Performance coaching and mindset expertise
+baseurl: ""
+url: "https://ilona-pavlova.github.io"
+
+# Exclude files not needed in the build
+exclude:
+  - README.md
+  - "*.sh"
