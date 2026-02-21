@@ -47,7 +47,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    background: var(--bg-color);
+    background: #c5a059;
     color: var(--text-color);
     line-height: 1.6;
     min-height: 100vh;
@@ -292,6 +292,14 @@ section p {
     letter-spacing: 0.05em;
 }
 
+.section-icon {
+    display: block;
+    margin: 0 auto var(--spacing-md) auto;
+    max-width: 720px;
+    width: 100%;
+    height: auto;
+}
+
 .performance-intro {
     max-width: 1700px;
     margin: 0 auto var(--spacing-xl) auto;
@@ -365,8 +373,7 @@ section p {
 
 .card.card-back p {
     color: #ffffff;
-    font-size: clamp(0.85rem, 3.5cqi, 1.5rem);
-    line-height: 1.5;
+    font-size: clamp(1.275rem, 5.25cqi, 2.25rem);
 }
 
 .card h3 {
@@ -382,7 +389,7 @@ section p {
 }
 
 .card p {
-    font-size: clamp(0.85rem, 3.5cqi, 1.5rem);
+    font-size: clamp(1.275rem, 5.25cqi, 2.25rem);
     color: #4a4a4a;
     line-height: 1.5;
 }
@@ -422,7 +429,7 @@ section p {
 /* Section Divider */
 .section-divider {
     background-color: #c5a059;
-    height: 3px;
+    height: 6px;
     width: 100%;
 }
 
@@ -459,11 +466,16 @@ section p {
 
 .expertise-tagline {
     text-align: center;
-    font-size: 1.6rem;
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: clamp(0.9rem, 2cqi, 1.5rem);
     font-weight: 700;
-    color: #ffffff;
+    color: #c5a059;
     padding-top: var(--spacing-xl);
     letter-spacing: 0.02em;
+}
+
+.expertise-tagline+.expertise-tagline {
+    padding-top: calc(var(--spacing-xl) / 4);
 }
 
 
