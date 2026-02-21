@@ -129,6 +129,30 @@ body {
     /* Regular weight for contrast */
 }
 
+.authority-divider {
+    height: 2px;
+    background-color: #ac8953;
+    width: clamp(200px, 50%, 500px);
+    margin: 1.5rem auto;
+    border-radius: 1px;
+}
+
+.authority-line-3 {
+    font-family: 'Baskerville', serif;
+    color: #ffffff;
+    font-size: clamp(1rem, 3vw, 25px);
+    font-weight: 100;
+    /* Regular weight for contrast */
+}
+
+.authority-line-4 {
+    font-family: 'Baskerville', serif;
+    color: #ffffff;
+    font-size: clamp(1rem, 3vw, 30px);
+    font-weight: 100;
+    /* Regular weight for contrast */
+}
+
 .hero-main {
     display: flex;
     flex-direction: row;
