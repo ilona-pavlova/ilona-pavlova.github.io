@@ -295,7 +295,7 @@ section p {
 .section-icon {
     display: block;
     margin: 0 auto var(--spacing-md) auto;
-    max-width: 720px;
+    max-width: min(720px, 100%);
     width: 100%;
     height: auto;
 }
