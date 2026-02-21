@@ -89,6 +89,46 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.authority-gap {
+    height: 5px;
+    background-color: #ac8953;
+    width: 100%;
+}
+
+.authority-section {
+    background-color: #1a3026;
+    padding: var(--spacing-lg) var(--spacing-md);
+    text-align: center;
+    border-radius: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    border: none;
+}
+
+.authority-section:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.authority-line-1 {
+    font-family: 'Libre Baskerville', serif;
+    color: #ac8953;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: var(--spacing-sm);
+    text-transform: none;
+    /* Keep casing as provided */
+    letter-spacing: normal;
+}
+
+.authority-line-2 {
+    font-family: 'Libre Baskerville', serif;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 400;
+    /* Regular weight for contrast */
+}
+
 .hero-main {
     display: flex;
     flex-direction: row;
