@@ -355,35 +355,9 @@ section p {
     line-height: 1.8;
 }
 
-/* Pattern Insight Section Styles */
-.pattern-insight-section {
-    background-color: #efebe0;
-    color: #000000;
-    text-align: center;
-    padding: 3.5rem var(--spacing-md);
-    font-family: 'Baskerville', serif;
-    width: 100%;
-}
-
-.insight-content-wrapper {
-    max-width: 1700px;
-    margin: 0 auto;
-}
-
-.insight-line-1 {
-    font-size: 25px;
-    margin-bottom: 0.5rem;
-    font-weight: 400;
-}
-
-.insight-line-2 {
-    font-size: 30px;
-    font-weight: 400;
-}
-
 /* Performance Section Styles */
 .performance-section {
-    background-color: #014421;
+    background-color: #1a3026;
     text-align: center;
     padding: var(--spacing-xl) 0;
     margin: 0;
@@ -400,8 +374,9 @@ section p {
 }
 
 .section-title {
+    font-family: 'Baskerville', serif;
     font-size: clamp(1.2rem, 4cqi, 2.5rem);
-    font-weight: 600;
+    font-weight: 400;
     color: #ffffff;
     /* Dark green for contrast */
     margin-bottom: var(--spacing-md);
@@ -459,7 +434,7 @@ section p {
 }
 
 .card {
-    background: #ffffff;
+    background: #ac8953;
     border: none;
     border-radius: 0;
     padding: var(--spacing-lg);
@@ -479,7 +454,7 @@ section p {
 
 .card-back {
     transform: rotateY(180deg);
-    background-color: #013220;
+    background-color: #efebe0;
     color: #ffffff;
     justify-content: center;
 }
@@ -489,25 +464,26 @@ section p {
 }
 
 .card.card-back p {
-    color: #ffffff;
+    color: #1a1a1a;
     font-size: clamp(1.275rem, 5.25cqi, 2.25rem);
 }
 
 .card h3 {
-    font-family: 'Inter', sans-serif;
-    font-size: clamp(1rem, 5cqi, 2rem);
-    font-weight: 600;
+    font-family: 'Baskerville', serif;
+    font-size: clamp(2.0rem, 5cqi, 2.5rem);
+    font-weight: 300;
     margin-bottom: var(--spacing-sm);
     color: #1a1a1a;
-    text-transform: uppercase;
     letter-spacing: 0.02em;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .card p {
+    font-family: 'Baskerville', serif;
     font-size: clamp(1.275rem, 5.25cqi, 2.25rem);
-    color: #4a4a4a;
+    font-weight: 300;
+    color: #1a1a1a;
     line-height: 1.5;
 }
 
