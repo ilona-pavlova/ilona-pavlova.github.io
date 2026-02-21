@@ -9,7 +9,7 @@
     --primary-light: hsl(var(--primary-hue), 70%, 70%);
     --primary-dark: hsl(var(--primary-hue), 70%, 50%);
 
-    --bg-color: #ffffff;
+    --bg-color: #000000;
     --bg-secondary: #f8f9fa;
     --text-color: #1a1a1a;
     --text-secondary: #4a4a4a;
