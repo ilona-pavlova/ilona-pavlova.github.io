@@ -331,6 +331,32 @@ section p {
     line-height: 1.8;
 }
 
+/* Pattern Insight Section Styles */
+.pattern-insight-section {
+    background-color: #efebe0;
+    color: #000000;
+    text-align: center;
+    padding: 3.5rem var(--spacing-md);
+    font-family: 'Baskerville', serif;
+    width: 100%;
+}
+
+.insight-content-wrapper {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.insight-line-1 {
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+.insight-line-2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
 /* Performance Section Styles */
 .performance-section {
     background-color: #014421;
