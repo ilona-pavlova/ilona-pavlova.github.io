@@ -407,28 +407,29 @@ section p {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 0px;
     margin-top: 0.1rem;
 }
 
-.process-tagline::before,
-.process-tagline::after {
+
+.process-title {
+    margin-top: 2rem;
+}
+
+.process-title::before,
+.process-title::after {
     content: "";
-    width: 40px;
+    width: 120px;
     height: 1.5px;
     display: block;
 }
 
-.process-tagline::before {
+.process-title::before {
     background: linear-gradient(to left, #ac8953, transparent);
 }
 
-.process-tagline::after {
+.process-title::after {
     background: linear-gradient(to right, #ac8953, transparent);
-}
-
-.process-title {
-    margin-top: 2rem;
 }
 
 .process-steps-container {
