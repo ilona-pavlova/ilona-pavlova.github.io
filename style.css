@@ -75,13 +75,13 @@ body {
 }
 
 .brand-name {
-    font-size: clamp(20px, 4vw, 35px);
+    font-size: clamp(15px, 4vw, 35px);
     font-weight: 500;
     line-height: 1;
 }
 
 .brand-tagline {
-    font-size: clamp(10px, 2vw, 17px);
+    font-size: clamp(8px, 2vw, 17px);
     font-weight: 400;
     line-height: 1;
 }
