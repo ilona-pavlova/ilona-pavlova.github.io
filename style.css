@@ -168,7 +168,8 @@ body {
     gap: 4vw;
     flex: 1;
     position: relative;
-    padding-top: 10px;
+    padding-top: 80px;
+    /* Increased to fix branding overlap on mobile */
 }
 
 .hero-text {
