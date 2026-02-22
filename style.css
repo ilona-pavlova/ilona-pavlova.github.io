@@ -434,7 +434,7 @@ section p {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 0.2rem;
     flex-wrap: wrap;
     padding: 0 1rem;
@@ -488,7 +488,7 @@ section p {
 }
 
 .step-arrow {
-    flex: 0 0 120px;
+    flex: 0 0 60px;
     display: flex;
     align-items: flex-start;
     padding-top: 12px;
@@ -503,11 +503,11 @@ section p {
 
 @media (max-width: 1024px) {
     .step-arrow {
-        flex: 0 0 60px;
+        flex: 0 0 40px;
     }
 
     .process-arrow-svg {
-        width: 60px;
+        width: 40px;
     }
 }
 
@@ -515,7 +515,7 @@ section p {
     .process-steps-container {
         flex-direction: column;
         align-items: center;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .step-arrow {
@@ -704,59 +704,15 @@ section p {
 /* Section Divider */
 .section-divider {
     background-color: #c5a059;
-    height: 6px;
+    height: 3px;
     width: 100%;
 }
 
-/* Expertise Section Styles */
-.expertise-section {
-    background-color: #014421;
-    text-align: center;
-    padding: var(--spacing-xl) 0;
-    margin: 0;
-    width: 100%;
-    border-radius: 0;
-}
-
-.expertise-content-wrapper {
-    max-width: 1700px;
-    margin: 0 auto;
-    padding: 0 var(--spacing-md);
-    width: 100%;
-    container-type: inline-size;
-}
-
-.expertise-section .section-title {
-    color: #ffffff;
-}
-
-.expertise-intro {
-    max-width: 1700px;
-    margin: 0 auto var(--spacing-sm) auto;
-    font-size: clamp(0.9rem, 2cqi, 1.5rem);
-    color: #ffffff;
-    line-height: 1.6;
-    text-align: left;
-}
-
-.expertise-tagline {
-    text-align: center;
-    font-family: 'Libre Baskerville', Georgia, serif;
-    font-size: clamp(0.9rem, 2cqi, 1.5rem);
-    font-weight: 700;
-    color: #c5a059;
-    padding-top: var(--spacing-xl);
-    letter-spacing: 0.02em;
-}
-
-.expertise-tagline+.expertise-tagline {
-    padding-top: calc(var(--spacing-xl) / 4);
-}
 
 
 footer {
-    background: #013220;
-    padding: var(--spacing-lg);
+    background: #0d1a14;
+    padding: calc(var(--spacing-lg) / 2);
     text-align: center;
     color: #ffffff;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
