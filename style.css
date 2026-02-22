@@ -401,8 +401,8 @@ section p {
 .section-title::before,
 .section-title::after {
     content: "";
-    width: clamp(40px, 15vw, 150px);
-    height: 1.5px;
+    width: clamp(40px, 15vw, 350px);
+    height: 3px;
     display: block;
 }
 
