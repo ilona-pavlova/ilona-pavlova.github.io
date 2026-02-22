@@ -398,6 +398,22 @@ section p {
     gap: 20px;
 }
 
+.section-title::before,
+.section-title::after {
+    content: "";
+    width: clamp(40px, 15vw, 150px);
+    height: 1.5px;
+    display: block;
+}
+
+.section-title::before {
+    background: linear-gradient(to left, #ac8953, transparent);
+}
+
+.section-title::after {
+    background: linear-gradient(to right, #ac8953, transparent);
+}
+
 .process-tagline {
     font-family: 'Baskerville', serif;
     font-size: clamp(0.8rem, 3.2cqi, 1.5rem);
@@ -411,25 +427,8 @@ section p {
     margin-top: 0.1rem;
 }
 
-
 .process-title {
     margin-top: 2rem;
-}
-
-.process-title::before,
-.process-title::after {
-    content: "";
-    width: clamp(40px, 15vw, 350px);
-    height: 1.5px;
-    display: block;
-}
-
-.process-title::before {
-    background: linear-gradient(to left, #ac8953, transparent);
-}
-
-.process-title::after {
-    background: linear-gradient(to right, #ac8953, transparent);
 }
 
 .process-steps-container {
