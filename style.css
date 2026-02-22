@@ -419,7 +419,7 @@ section p {
 .process-title::before,
 .process-title::after {
     content: "";
-    width: 120px;
+    width: clamp(40px, 15vw, 350px);
     height: 1.5px;
     display: block;
 }
