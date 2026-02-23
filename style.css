@@ -729,7 +729,7 @@ section p {
 }
 
 .card {
-    background: #ac8953;
+    background: linear-gradient(135deg, #c5a059 0%, #ac8953 100%);
     border: none;
     border-radius: 0;
     padding: 0.25rem 1rem;
@@ -766,7 +766,7 @@ section p {
 .card h3 {
     font-family: 'Baskerville', serif;
     font-size: clamp(2.0rem, 5cqi, 2.5rem);
-    font-weight: 300;
+    font-weight: 600;
     margin-bottom: 0.15rem;
     color: #1a1a1a;
     letter-spacing: 0.02em;
