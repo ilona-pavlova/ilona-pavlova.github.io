@@ -476,6 +476,13 @@ section p {
     margin-bottom: 1.5rem;
 }
 
+.pillar-title {
+    font-size: clamp(0.72rem, 2.64cqi, 1.8rem);
+    margin-top: 1.0rem;
+    margin-bottom: 0.15rem;
+    color: #ffffff;
+}
+
 .process-title {
     margin-top: 2rem;
     margin-bottom: -0.6rem;
