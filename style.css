@@ -729,7 +729,7 @@ section p {
 }
 
 .card {
-    background: linear-gradient(135deg, #c5a059 0%, #ac8953 100%);
+    background: linear-gradient(135deg, #d4af37 0%, #ac8953 100%);
     border: none;
     border-radius: 0;
     padding: 0.25rem 1rem;
@@ -749,7 +749,7 @@ section p {
 
 .card-back {
     transform: rotateY(180deg);
-    background-color: #efebe0;
+    background: linear-gradient(135deg, #ffffff 0%, #efebe0 100%);
     color: #ffffff;
     justify-content: center;
 }
