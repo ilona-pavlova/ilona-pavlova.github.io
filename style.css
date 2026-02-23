@@ -478,9 +478,23 @@ section p {
 
 .pillar-title {
     font-size: clamp(0.72rem, 2.64cqi, 1.8rem);
-    margin-top: 1.0rem;
-    margin-bottom: 0.15rem;
+    margin-bottom: 0.75rem;
     color: #ffffff;
+}
+
+.dots-divider {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.dots-divider span {
+    width: 6px;
+    height: 6px;
+    background-color: #ac8953;
+    border-radius: 50%;
 }
 
 .process-title {
