@@ -488,12 +488,34 @@ section p {
     margin-bottom: 3px;
 }
 
+.what-i-do-section .section-title {
+    font-size: clamp(0.84rem, 2.8cqi, 1.75rem);
+    /* ~30% smaller than 1.2rem - 2.5rem */
+    justify-content: center;
+}
+
 .what-i-do-content {
     max-width: 800px;
     margin: 0.5rem auto 0;
     text-align: left;
     display: flex;
     justify-content: center;
+}
+
+.what-i-do-footer {
+    max-width: 900px;
+    margin: 1.5rem auto 0;
+    padding: 0 2rem;
+}
+
+.what-i-do-body {
+    font-family: 'Baskerville', serif;
+    font-size: clamp(0.925rem, 1.45vw, 1.12rem);
+    /* ~25% smaller than the focal body text */
+    color: #ffffff;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    font-weight: 300;
 }
 
 .focus-list {
