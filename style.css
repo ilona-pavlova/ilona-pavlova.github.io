@@ -658,8 +658,22 @@ section p {
 
 .process-cta-block .cta-button {
     align-self: center;
-    margin-top: 0.25rem;
-    /* Reduced by half again */
+}
+
+.cta-button-group {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+}
+
+.cta-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .process-cta-headline {
