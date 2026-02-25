@@ -272,6 +272,11 @@ body {
     min-width: 40%;
 }
 
+.about-hero-text {
+    padding-top: 1rem;
+    justify-content: flex-start;
+}
+
 #header-photo {
     flex: 1;
     align-self: center;
