@@ -476,6 +476,47 @@ section p {
     border-radius: 0;
 }
 
+/* What I Do Section */
+.what-i-do-section {
+    background: linear-gradient(to right, #1a3026, #0d1a14);
+    color: #ffffff;
+    padding: 4rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.what-i-do-content {
+    max-width: 800px;
+    margin: 2rem auto 0;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.focus-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.focus-list li {
+    font-family: 'Baskerville', serif;
+    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+    position: relative;
+    padding-left: 2.5rem;
+}
+
+.focus-list li::before {
+    content: "•";
+    color: #ac8953;
+    position: absolute;
+    left: 0;
+    font-size: 2rem;
+    line-height: 1;
+}
+
 .performance-content-wrapper {
     max-width: 1700px;
     margin: 0 auto;
