@@ -267,7 +267,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 6vh 4vw 1vh 4vw;
+    padding: 3vh 4vw 1vh 4vw;
     z-index: 2;
     min-width: 40%;
 }
