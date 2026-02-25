@@ -308,6 +308,7 @@ body {
     border-radius: 12px;
     box-shadow: 10px 46px 80px rgba(0, 0, 0, 0.6);
     border: 5px solid rgba(26, 48, 38, 0.5);
+    background: linear-gradient(to right, #1a3026, #050a08);
 }
 
 .hero-tagline {
