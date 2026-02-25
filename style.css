@@ -480,7 +480,7 @@ section p {
 .what-i-do-section {
     background: linear-gradient(to right, #1a3026, #0d1a14);
     color: #ffffff;
-    padding: 4rem 0;
+    padding: 1rem 0;
     text-align: center;
     width: 100%;
     border-radius: 0;
@@ -490,7 +490,7 @@ section p {
 
 .what-i-do-content {
     max-width: 800px;
-    margin: 2rem auto 0;
+    margin: 0.5rem auto 0;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -501,7 +501,7 @@ section p {
     padding: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem 4rem;
+    gap: 0.5rem 6rem;
     /* Increased horizontal gap for clarity */
 }
 
@@ -514,7 +514,7 @@ section p {
 
 .focus-list li {
     font-family: 'Baskerville', serif;
-    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+    font-size: clamp(1.235rem, 1.95vw, 1.495rem);
     position: relative;
     padding-left: 2.5rem;
 }
