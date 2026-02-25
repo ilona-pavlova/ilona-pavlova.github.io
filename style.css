@@ -483,6 +483,7 @@ section p {
     padding: 4rem 0;
     text-align: center;
     width: 100%;
+    border-radius: 0;
 }
 
 .what-i-do-content {
