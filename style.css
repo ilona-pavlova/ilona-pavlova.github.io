@@ -298,9 +298,9 @@ body {
 #about-header-photo {
     align-self: center;
     width: auto;
-    max-width: 60%;
+    max-width: 80%;
     height: auto;
-    max-height: clamp(450px, 60vh, 675px);
+    max-height: clamp(400x, 40vh, 600px);
     display: block;
     border-radius: 12px;
     box-shadow: 10px 46px 80px rgba(0, 0, 0, 0.6);
@@ -506,7 +506,9 @@ section p {
     justify-content: center;
 }
 
-.what-i-do-content {
+.what-i-do-content,
+.how-change-occurs-content,
+.who-this-helps-content {
     max-width: 800px;
     margin: 0.5rem auto 0;
     text-align: left;
@@ -514,13 +516,15 @@ section p {
     justify-content: center;
 }
 
-.what-i-do-footer {
+.what-i-do-footer,
+.how-change-occurs-footer {
     max-width: 900px;
     margin: 1.5rem auto 0;
     padding: 0 2rem;
 }
 
-.what-i-do-body {
+.what-i-do-body,
+.how-change-occurs-body {
     font-family: 'Baskerville', serif;
     font-size: clamp(1.1rem, 1.45vw, 1.5rem);
     /* ~25% smaller than the focal body text */
@@ -581,23 +585,6 @@ section p {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-}
-
-.section-title::before,
-.section-title::after {
-    content: "";
-    width: clamp(20px, 15vw, 300px);
-    height: 3px;
-    display: block;
-}
-
-.section-title::before {
-    background: linear-gradient(to left, #ac8953, transparent);
-}
-
-.section-title::after {
-    background: linear-gradient(to right, #ac8953, transparent);
 }
 
 .process-tagline {
@@ -814,6 +801,61 @@ section p {
     grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
     gap: var(--spacing-lg);
     margin-top: 0.1rem;
+}
+
+.background-wrapper {
+    padding: 0 2rem 1.5rem;
+}
+
+.background-body {
+    font-family: 'Baskerville', serif;
+    font-size: clamp(1.1rem, 1.45vw, 1.5rem);
+    color: #ffffff;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* Static experience cards for About page */
+.background-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+    gap: var(--spacing-md);
+    margin-top: 1.5rem;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-static {
+    background: linear-gradient(135deg, #d4af37 0%, #ac8953 100%);
+    border: none;
+    border-radius: 0;
+    padding: 1.25rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-static h3 {
+    font-family: 'Baskerville', serif;
+    font-size: clamp(1.4rem, 3cqi, 2rem);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1a1a1a;
+    letter-spacing: 0.02em;
+}
+
+.card-static p {
+    font-family: 'Baskerville', serif;
+    font-size: clamp(1rem, 2.5cqi, 1.4rem);
+    font-weight: 300;
+    color: #1a1a1a;
+    line-height: 1.5;
+    margin: 0;
 }
 
 /* Card Flip */
