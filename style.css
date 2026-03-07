@@ -727,7 +727,7 @@ section p {
 
 /* Performance Section Styles */
 .performance-section {
-    background: linear-gradient(to right, #0d1a14 0%, #1a3026 100%);
+    background: linear-gradient(to left, #0d1a14 0%, #1a3026 100%);
     text-align: center;
     padding: 1.5rem 0;
     margin: 0;
