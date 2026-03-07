@@ -315,6 +315,86 @@ body {
     line-height: 1;
 }
 
+.audit-section {
+    background: linear-gradient(to left, #1a3026, #0d1a14);
+    padding: 3rem 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0;
+}
+
+.audit-content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 2rem auto 0 auto;
+    align-items: center;
+}
+
+.audit-card {
+    background: linear-gradient(135deg, #d4af37 0%, #ac8953 100%);
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    color: #1a1a1a;
+}
+
+.audit-card p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+}
+
+.audit-card .fading-line {
+    background: linear-gradient(to right, transparent, #1a1a1a, transparent);
+    width: 60%;
+    margin: 1.5rem auto;
+}
+
+.audit-card .audit-price {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.audit-card .cta-button {
+    margin-top: 1.5rem;
+    color: #1a1a1a;
+    border-color: #1a1a1a;
+    align-self: center;
+}
+
+.audit-card .cta-button:hover {
+    background-color: #1a1a1a;
+    color: #ac8953;
+}
+
+.audit-features {
+    text-align: left;
+}
+
+.audit-features h3 {
+    font-family: 'Baskerville', serif;
+    font-size: 1.8rem;
+    color: #ac8953;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 992px) {
+    .audit-content-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
+
 .pillars-2x2-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
