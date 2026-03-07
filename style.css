@@ -525,6 +525,8 @@ body {
 
 .contact-page .hero-main {
     justify-content: center;
+    align-items: flex-start;
+    padding-top: 1.5rem;
 }
 
 .contact-page .hero-text {
@@ -532,6 +534,8 @@ body {
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
+    justify-content: flex-start;
+    padding-top: 0;
 }
 
 .about-hero-text {
