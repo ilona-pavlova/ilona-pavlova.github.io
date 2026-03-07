@@ -538,6 +538,57 @@ body {
     padding-top: 0;
 }
 
+/* Contact Form Styling */
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(172, 137, 83, 0.3);
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    transition: all var(--transition-normal);
+    border-radius: 4px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #ac8953;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-form .cta-button {
+    align-self: center;
+    cursor: pointer;
+    background: transparent;
+    width: fit-content;
+}
+
+.contact-form .cta-button:hover {
+    background-color: #ac8953;
+    color: #0d1a14;
+}
+
 .about-hero-text {
     padding-top: 0.1rem;
     justify-content: flex-start;
