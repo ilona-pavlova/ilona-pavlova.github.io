@@ -401,6 +401,23 @@ body {
     }
 }
 
+.recalibration-gap {
+    height: 3px;
+    background-color: #ac8953;
+    width: 100%;
+}
+
+.recalibration-section {
+    background: linear-gradient(to right, #1a3026, #0d1a14);
+    padding: 3rem 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0;
+}
+
 .pillars-2x2-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
