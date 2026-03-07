@@ -337,7 +337,7 @@ body {
 
 .audit-card {
     background: linear-gradient(135deg, #d4af37 0%, #ac8953 100%);
-    padding: 1.5rem 2rem;
+    padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -350,23 +350,23 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 1.1rem;
     color: #1a1a1a;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .audit-card .fading-line {
     background: linear-gradient(to right, transparent, #1a1a1a, transparent);
     width: 60%;
-    margin: 1rem auto;
+    margin: 0.5rem auto;
 }
 
 .audit-card .audit-price {
     font-size: 2rem;
     font-weight: 700;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 
 .audit-card .cta-button {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     color: #1a1a1a;
     border-color: #1a1a1a;
     align-self: center;
