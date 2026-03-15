@@ -44,7 +44,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Baskerville', serif;
     font-size: clamp(1rem, 1.1vw, 1.125rem);
     font-weight: 400;
     background: #efebe0;
@@ -232,7 +232,7 @@ body {
 }
 
 .broken-section p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Baskerville', serif;
     font-size: clamp(1.1rem, 1.45vw, 1.5rem);
     line-height: 1.6;
     max-width: 1300px;
@@ -263,7 +263,7 @@ body {
 }
 
 .plateau-section p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Baskerville', serif;
     font-size: clamp(1.1rem, 1.45vw, 1.5rem);
     line-height: 1.6;
     max-width: 1300px;
@@ -386,12 +386,12 @@ body {
     font-size: 1.8rem;
     font-weight: 400;
     color: #ac8953;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.75rem;
 }
 
 .audit-features .plateau-list {
     grid-template-columns: 1fr;
-    margin-top: 0.2rem;
+    margin-top: 1rem;
     margin-bottom: 0;
 }
 
