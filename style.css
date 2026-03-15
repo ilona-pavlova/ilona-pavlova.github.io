@@ -336,7 +336,7 @@ body {
 }
 
 .audit-card {
-    background: linear-gradient(135deg, #d4af37 0%, #ac8953 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #efebe0 100%);
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
@@ -1081,7 +1081,7 @@ section p {
 }
 
 .card-static {
-    background: linear-gradient(135deg, #d4af37 0%, #ac8953 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #efebe0 100%);
     border: none;
     border-radius: 0;
     padding: 1.25rem 1rem;
@@ -1133,7 +1133,7 @@ section p {
 }
 
 .card {
-    background: linear-gradient(135deg, #d4af37 0%, #ac8953 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #efebe0 100%);
     border: none;
     border-radius: 0;
     padding: 0.25rem 1rem;
@@ -1154,12 +1154,12 @@ section p {
 .card-back {
     transform: rotateY(180deg);
     background: linear-gradient(135deg, #ffffff 0%, #efebe0 100%);
-    color: #ffffff;
+    color: #1a1a1a;
     justify-content: center;
 }
 
 .card.card-back h3 {
-    color: #ffffff;
+    color: #1a1a1a;
 }
 
 .card.card-back p {
