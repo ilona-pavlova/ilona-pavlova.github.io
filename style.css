@@ -384,6 +384,7 @@ body {
 .audit-features h3 {
     font-family: 'Baskerville', serif;
     font-size: 1.8rem;
+    font-weight: 400;
     color: #ac8953;
     margin-bottom: 1.5rem;
 }
