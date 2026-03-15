@@ -441,6 +441,54 @@ body {
     margin: 2rem auto 0 auto;
 }
 
+.testimony-gap {
+    height: 3px;
+    background-color: #ac8953;
+    width: 100%;
+}
+
+.testimony-section {
+    background: linear-gradient(to right, #1a3026, #0d1a14);
+    padding: 3rem 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0;
+}
+
+.testimony-content-wrapper {
+    max-width: 1000px;
+    margin: 2.5rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.testimony-item {
+    padding: 0 1rem;
+}
+
+.testimony-quote {
+    font-family: 'Baskerville', serif;
+    font-size: clamp(1.2rem, 2cqi, 1.8rem);
+    font-style: italic;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.testimony-author {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ac8953;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
 .pillars-2x2-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
